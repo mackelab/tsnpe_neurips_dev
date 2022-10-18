@@ -1,0 +1,4 @@
+- task=bernoulli_glm
+- task.num_observation=7
+- task.num_simulations=1000
+- algorithm.params.proposal_sampling=sir

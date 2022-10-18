@@ -1,0 +1,4 @@
+- task=gaussian_linear
+- task.num_observation=6
+- task.num_simulations=10000
+- algorithm.params.proposal_sampling=sir

@@ -1,0 +1,4 @@
+- task=lotka_volterra
+- task.num_observation=10
+- task.num_simulations=100000
+- algorithm.params.atomic_loss=True

@@ -1,0 +1,4 @@
+- task=bernoulli_glm
+- task.num_observation=8
+- task.num_simulations=100000
+- algorithm.params.atomic_loss=True

@@ -1,0 +1,3 @@
+- task=bernoulli_glm
+- task.num_observation=4
+- task.num_simulations=1000

@@ -1,0 +1,4 @@
+- task=bernoulli_glm
+- task.num_observation=4
+- task.num_simulations=10000
+- algorithm.params.allowed_false_negatives=0.001

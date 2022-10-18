@@ -1,0 +1,2 @@
+slurmstepd: error: *** JOB 1669429 ON slurm-cpu-hm-3 CANCELLED AT 2022-08-01T22:47:11 ***
+slurmstepd: error: *** STEP 1669429.0 ON slurm-cpu-hm-3 CANCELLED AT 2022-08-01T22:47:11 ***

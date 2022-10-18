@@ -1,0 +1,97 @@
+/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/sbibm/tasks/slcp/task.py:84: UserWarning: The use of `x.T` on tensors of dimension other than 2 to reverse their shape is deprecated and it will throw an error in a future release. Consider `x.mT` to transpose batches of matricesor `x.permute(*torch.arange(x.ndim - 1, -1, -1))` to reverse the dimensions of a tensor. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2318.)
+  m = torch.stack(
+Running 10000 simulations.:   0%|          | 0/10000 [00:00<?, ?it/s]Running 10000 simulations.: 100%|██████████| 10000/10000 [00:00<00:00, 265664.05it/s]
+Drawing 100000 posterior samples:   0%|          | 0/100000 [00:00<?, ?it/s]/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/nflows/transforms/lu.py:80: UserWarning: torch.triangular_solve is deprecated in favor of torch.linalg.solve_triangularand will be removed in a future PyTorch release.
+torch.linalg.solve_triangular has its arguments reversed and does not return a copy of one of the inputs.
+X = torch.triangular_solve(B, A).solution
+should be replaced with
+X = torch.linalg.solve_triangular(A, B). (Triggered internally at  ../aten/src/ATen/native/BatchLinearAlgebra.cpp:1672.)
+  outputs, _ = torch.triangular_solve(
+Drawing 100000 posterior samples:  10%|▉         | 9794/100000 [00:00<00:01, 84291.10it/s]Drawing 100000 posterior samples:  29%|██▉       | 29342/100000 [00:00<00:00, 99947.45it/s]Drawing 100000 posterior samples:  49%|████▉     | 48877/100000 [00:00<00:00, 102452.62it/s]Drawing 100000 posterior samples:  68%|██████▊   | 68425/100000 [00:00<00:00, 91189.51it/s] Drawing 100000 posterior samples:  78%|███████▊  | 78204/100000 [00:00<00:00, 91404.07it/s]Drawing 100000 posterior samples:  98%|█████████▊| 97728/100000 [00:01<00:00, 92905.04it/s]Drawing 100000 posterior samples: 101114it [00:01, 93635.20it/s]                           
+Running 10000 simulations.:   0%|          | 0/10000 [00:00<?, ?it/s]Running 10000 simulations.: 100%|██████████| 10000/10000 [00:00<00:00, 496861.26it/s]
+Drawing 100000 posterior samples:   0%|          | 0/100000 [00:00<?, ?it/s]Drawing 100000 posterior samples:   9%|▉         | 9209/100000 [00:00<00:01, 70790.23it/s]Drawing 100000 posterior samples:  28%|██▊       | 27727/100000 [00:00<00:00, 91753.97it/s]Drawing 100000 posterior samples:  46%|████▋     | 46275/100000 [00:00<00:00, 96904.22it/s]Drawing 100000 posterior samples:  65%|██████▍   | 64781/100000 [00:00<00:00, 99004.24it/s]Drawing 100000 posterior samples:  83%|████████▎ | 83311/100000 [00:00<00:00, 100369.09it/s]Drawing 100000 posterior samples: 101715it [00:01, 100833.96it/s]                           Drawing 100000 posterior samples: 101715it [00:01, 98201.77it/s] 
+Running 10000 simulations.:   0%|          | 0/10000 [00:00<?, ?it/s]Running 10000 simulations.: 100%|██████████| 10000/10000 [00:00<00:00, 489536.99it/s]
+Drawing 100000 posterior samples:   0%|          | 0/100000 [00:00<?, ?it/s]Drawing 100000 posterior samples:  18%|█▊        | 17911/100000 [00:00<00:00, 136622.21it/s]Drawing 100000 posterior samples:  36%|███▌      | 35847/100000 [00:00<00:00, 143217.81it/s]Drawing 100000 posterior samples:  54%|█████▍    | 53783/100000 [00:00<00:00, 145547.21it/s]Drawing 100000 posterior samples:  72%|███████▏  | 71710/100000 [00:00<00:00, 146436.76it/s]Drawing 100000 posterior samples:  90%|████████▉ | 89603/100000 [00:00<00:00, 147146.09it/s]Drawing 100000 posterior samples: 100719it [00:00, 143852.48it/s]                           
+Running 10000 simulations.:   0%|          | 0/10000 [00:00<?, ?it/s]Running 10000 simulations.: 100%|██████████| 10000/10000 [00:00<00:00, 791796.42it/s]
+Drawing 100000 posterior samples:   0%|          | 0/100000 [00:00<?, ?it/s]Drawing 100000 posterior samples:  17%|█▋        | 17207/100000 [00:00<00:00, 141663.64it/s]Drawing 100000 posterior samples:  34%|███▍      | 34444/100000 [00:00<00:00, 142583.68it/s]Drawing 100000 posterior samples:  52%|█████▏    | 51699/100000 [00:00<00:00, 140315.05it/s]Drawing 100000 posterior samples:  69%|██████▉   | 69022/100000 [00:00<00:00, 141891.20it/s]Drawing 100000 posterior samples:  86%|████████▋ | 86301/100000 [00:00<00:00, 142020.31it/s]Drawing 100000 posterior samples: 102516it [00:00, 142468.57it/s]                           Drawing 100000 posterior samples: 102516it [00:00, 141951.35it/s]
+Running 10000 simulations.:   0%|          | 0/10000 [00:00<?, ?it/s]Running 10000 simulations.: 100%|██████████| 10000/10000 [00:00<00:00, 796835.69it/s]
+Drawing 100000 posterior samples:   0%|          | 0/100000 [00:00<?, ?it/s]Drawing 100000 posterior samples:  17%|█▋        | 17251/100000 [00:00<00:00, 131658.47it/s]Drawing 100000 posterior samples:  35%|███▍      | 34522/100000 [00:00<00:00, 137110.89it/s]Drawing 100000 posterior samples:  52%|█████▏    | 51770/100000 [00:00<00:00, 139193.86it/s]Drawing 100000 posterior samples:  69%|██████▉   | 69015/100000 [00:00<00:00, 140215.00it/s]Drawing 100000 posterior samples:  86%|████████▋ | 86250/100000 [00:00<00:00, 140762.28it/s]Drawing 100000 posterior samples: 102556it [00:00, 141097.96it/s]                           Drawing 100000 posterior samples: 102556it [00:00, 139753.81it/s]
+Running 10000 simulations.:   0%|          | 0/10000 [00:00<?, ?it/s]Running 10000 simulations.: 100%|██████████| 10000/10000 [00:00<00:00, 809102.03it/s]
+Drawing 100000 posterior samples:   0%|          | 0/100000 [00:00<?, ?it/s]Drawing 100000 posterior samples:  17%|█▋        | 17180/100000 [00:00<00:00, 126509.01it/s]Drawing 100000 posterior samples:  35%|███▍      | 34502/100000 [00:00<00:00, 129879.97it/s]Drawing 100000 posterior samples:  52%|█████▏    | 51805/100000 [00:00<00:00, 134284.10it/s]Drawing 100000 posterior samples:  69%|██████▉   | 69183/100000 [00:00<00:00, 136784.66it/s]Drawing 100000 posterior samples:  86%|████████▋ | 86482/100000 [00:00<00:00, 137887.85it/s]Drawing 100000 posterior samples: 102395it [00:00, 138316.89it/s]                           Drawing 100000 posterior samples: 102395it [00:00, 136110.04it/s]
+Running 10000 simulations.:   0%|          | 0/10000 [00:00<?, ?it/s]Running 10000 simulations.: 100%|██████████| 10000/10000 [00:00<00:00, 755213.37it/s]
+Drawing 100000 posterior samples:   0%|          | 0/100000 [00:00<?, ?it/s]Drawing 100000 posterior samples:  17%|█▋        | 17011/100000 [00:00<00:00, 132448.92it/s]Drawing 100000 posterior samples:  34%|███▍      | 33970/100000 [00:00<00:00, 131955.00it/s]Drawing 100000 posterior samples:  51%|█████     | 51068/100000 [00:00<00:00, 135155.47it/s]Drawing 100000 posterior samples:  68%|██████▊   | 68153/100000 [00:00<00:00, 136886.01it/s]Drawing 100000 posterior samples:  85%|████████▌ | 85221/100000 [00:00<00:00, 137724.70it/s]Drawing 100000 posterior samples: 102238it [00:00, 138315.86it/s]                           Drawing 100000 posterior samples: 102238it [00:00, 136743.68it/s]
+Running 10000 simulations.:   0%|          | 0/10000 [00:00<?, ?it/s]Running 10000 simulations.: 100%|██████████| 10000/10000 [00:00<00:00, 782709.24it/s]
+Drawing 100000 posterior samples:   0%|          | 0/100000 [00:00<?, ?it/s]Drawing 100000 posterior samples:  17%|█▋        | 17016/100000 [00:00<00:00, 138979.22it/s]Drawing 100000 posterior samples:  34%|███▍      | 33970/100000 [00:00<00:00, 139949.22it/s]Drawing 100000 posterior samples:  51%|█████     | 50838/100000 [00:00<00:00, 139846.78it/s]Drawing 100000 posterior samples:  68%|██████▊   | 67687/100000 [00:00<00:00, 139383.63it/s]Drawing 100000 posterior samples:  85%|████████▍ | 84561/100000 [00:00<00:00, 138975.08it/s]Drawing 100000 posterior samples: 101505it [00:00, 139389.15it/s]                           Drawing 100000 posterior samples: 101505it [00:00, 139322.96it/s]
+Running 10000 simulations.:   0%|          | 0/10000 [00:00<?, ?it/s]Running 10000 simulations.: 100%|██████████| 10000/10000 [00:00<00:00, 788299.28it/s]
+submitit WARNING (2022-08-01 22:46:55,771) - Bypassing signal SIGCONT
+submitit WARNING (2022-08-01 22:46:55,834) - Caught signal SIGUSR1 on slurm-cpu-hm-5.novalocal: this job is timed-out.
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/logging/__init__.py", line 1088, in emit
+    stream.write(msg + self.terminator)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/submitit/core/job_environment.py", line 210, in checkpoint_and_try_requeue
+    raise utils.UncompletedJobError(message)
+submitit.core.utils.UncompletedJobError: Job not requeued because: timed-out too many times.
+Call stack:
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/submitit/core/_submit.py", line 11, in <module>
+    submitit_main()
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/submitit/core/submission.py", line 72, in submitit_main
+    process_job(args.folder)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/submitit/core/submission.py", line 54, in process_job
+    result = delayed.result()
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/submitit/core/utils.py", line 133, in result
+    self._result = self.function(*self.args, **self.kwargs)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/hydra_plugins/hydra_submitit_launcher/submitit_launcher.py", line 71, in __call__
+    return run_job(
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/hydra/core/utils.py", line 160, in run_job
+    ret.return_value = task_function(task_cfg)
+  File "run.py", line 56, in main
+    outputs = run(
+  File "/mnt/qb/macke/mdeistler57/tsnpe_collection/benchmark/benchmark/run_tsnpe.py", line 157, in run
+    _ = inference_method.append_simulations(
+  File "/mnt/qb/macke/mdeistler57/tsnpe_collection/sbi/sbi/inference/snpe/snpe_c.py", line 181, in train
+    return super().train(**kwargs)
+  File "/mnt/qb/macke/mdeistler57/tsnpe_collection/sbi/sbi/inference/snpe/snpe_base.py", line 310, in train
+    train_losses = self._loss(
+  File "/mnt/qb/macke/mdeistler57/tsnpe_collection/sbi/sbi/inference/snpe/snpe_base.py", line 521, in _loss
+    log_prob = self._log_prob_proposal_posterior(theta, x, masks, proposal)
+  File "/mnt/qb/macke/mdeistler57/tsnpe_collection/sbi/sbi/inference/snpe/snpe_c.py", line 282, in _log_prob_proposal_posterior
+    return self._log_prob_proposal_posterior_atomic(theta, x, masks)
+  File "/mnt/qb/macke/mdeistler57/tsnpe_collection/sbi/sbi/inference/snpe/snpe_c.py", line 332, in _log_prob_proposal_posterior_atomic
+    log_prob_posterior = self._neural_net.log_prob(atomic_theta, repeated_x)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/nflows/distributions/base.py", line 40, in log_prob
+    return self._log_prob(inputs, context)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/nflows/flows/base.py", line 39, in _log_prob
+    noise, logabsdet = self._transform(inputs, context=embedded_context)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/nflows/transforms/base.py", line 56, in forward
+    return self._cascade(inputs, funcs, context)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/nflows/transforms/base.py", line 50, in _cascade
+    outputs, logabsdet = func(outputs, context)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/nflows/transforms/coupling.py", line 84, in forward
+    transform_split, logabsdet = self._coupling_transform_forward(
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/nflows/transforms/coupling.py", line 194, in _coupling_transform_forward
+    return self._coupling_transform(inputs, transform_params, inverse=False)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/nflows/transforms/coupling.py", line 211, in _coupling_transform
+    outputs, logabsdet = self._piecewise_cdf(inputs, transform_params, inverse)
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/nflows/transforms/coupling.py", line 492, in _piecewise_cdf
+    return spline_fn(
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/nflows/transforms/splines/rational_quadratic.py", line 46, in unconstrained_rational_quadratic_spline
+    ) = rational_quadratic_spline(
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/nflows/transforms/splines/rational_quadratic.py", line 118, in rational_quadratic_spline
+    input_delta = delta.gather(-1, bin_idx)[..., 0]
+  File "/home/macke/mdeistler57/.conda/envs/tsnpe/lib/python3.8/site-packages/submitit/core/job_environment.py", line 179, in bypass
+    self._logger.warning(f"Bypassing signal {signal.Signals(signum).name}")
+Message: 'Bypassing signal SIGCONT'
+Arguments: ()
+slurmstepd: error: *** JOB 1669424 ON slurm-cpu-hm-5 CANCELLED AT 2022-08-01T22:49:26 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 1669424.0 ON slurm-cpu-hm-5 CANCELLED AT 2022-08-01T22:49:26 DUE TO TIME LIMIT ***
+submitit WARNING (2022-08-01 22:49:30,096) - Bypassing signal SIGTERM
+submitit WARNING (2022-08-01 22:49:30,099) - Bypassing signal SIGCONT

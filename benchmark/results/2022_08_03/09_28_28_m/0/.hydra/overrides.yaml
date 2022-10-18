@@ -1,0 +1,4 @@
+- task=slcp
+- task.num_observation=1
+- task.num_simulations=100000
+- algorithm.params.atomic_loss=True

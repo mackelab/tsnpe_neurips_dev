@@ -1,0 +1,5 @@
+- task.num_simulations=1000
+- task=gaussian_linear
+- task.num_observation=9
+- algorithm.params.num_samples_to_estimate_support=100000
+- algorithm.params.allowed_false_negatives=0.0001

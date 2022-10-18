@@ -1,0 +1,4 @@
+- task=sir
+- task.num_observation=8
+- task.num_simulations=1000
+- algorithm.params.allowed_false_negatives=0.001

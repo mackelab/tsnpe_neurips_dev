@@ -1,0 +1,34 @@
+submitit INFO (2022-08-02 07:58:09,811) - Starting with JobEnvironment(job_id=1670700_5, hostname=slurm-cpu-hm-2.novalocal, local_rank=0(1), node=0(1), global_rank=0(1))
+submitit INFO (2022-08-02 07:58:09,812) - Loading pickle: /mnt/qb/macke/mdeistler57/tsnpe_collection/benchmark/benchmark/../results/2022_08_02/07_57_38_m/.submitit/1670700_5/1670700_5_submitted.pkl
+[2022-08-02 07:58:47,941][__main__][INFO] - algorithm:
+  name: tsnpe
+  params:
+    num_rounds: 10
+    neural_net: nsf
+    hidden_features: 50
+    simulation_batch_size: 1000
+    training_batch_size: 10000
+    z_score_x: independent
+    z_score_theta: independent
+    num_samples_to_estimate_support: 100000
+    allowed_false_negatives: 0.0001
+    use_constrained_prior: false
+    constrained_prior_quanitle: 0.0
+    max_num_epochs: 100000
+    proposal_sampling: rejection
+    sir_oversample: 1024
+    atomic_loss: true
+task:
+  name: lotka_volterra
+  num_simulations: 100000
+  num_observation: 6
+compute_metrics: true
+seed: null
+
+[2022-08-02 07:58:47,942][__main__][INFO] - sbibm version: 1.0.7
+[2022-08-02 07:58:47,943][__main__][INFO] - Seed not specified, generating random seed for replicability
+[2022-08-02 07:58:47,944][__main__][INFO] - Random seed: 361736406
+[2022-08-02 07:58:48,201][__main__][INFO] - Start run
+[2022-08-02 07:58:48,243][benchmark.run_tsnpe][INFO] - Running SNPE
+submitit INFO (2022-08-02 07:58:48,377) - Job completed successfully
+[2022-08-02 07:58:48,377][submitit][INFO] - Job completed successfully

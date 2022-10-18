@@ -1,0 +1,23 @@
+algorithm:
+  name: tsnpe
+  params:
+    allowed_false_negatives: 0.0001
+    constrained_prior_quanitle: 0.0
+    hidden_features: 50
+    max_num_epochs: 100000
+    neural_net: nsf
+    num_rounds: 10
+    num_samples_to_estimate_support: 100000
+    proposal_sampling: sir
+    simulation_batch_size: 1000
+    sir_oversample: 1024
+    training_batch_size: 10000
+    use_constrained_prior: false
+    z_score_theta: independent
+    z_score_x: independent
+compute_metrics: true
+seed: 3501409974
+task:
+  name: two_moons
+  num_observation: 4
+  num_simulations: 10000

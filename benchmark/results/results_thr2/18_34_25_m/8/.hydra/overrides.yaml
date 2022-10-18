@@ -1,0 +1,5 @@
+- task=lotka_volterra
+- task.num_observation=9
+- task.num_simulations=100000
+- algorithm.params.allowed_false_negatives=1e-05
+- algorithm.params.num_samples_to_estimate_support=1000000

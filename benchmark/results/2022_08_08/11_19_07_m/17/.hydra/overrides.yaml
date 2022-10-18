@@ -1,0 +1,4 @@
+- task=lotka_volterra
+- task.num_observation=9
+- task.num_simulations=10000
+- algorithm.params.proposal_sampling=sir

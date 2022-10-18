@@ -1,0 +1,176 @@
+submitit INFO (2022-04-17 20:44:42,168) - Starting with JobEnvironment(job_id=1353307_7, hostname=slurm-cpu-hm-3.novalocal, local_rank=0(1), node=0(1), global_rank=0(1))
+submitit INFO (2022-04-17 20:44:42,169) - Loading pickle: /mnt/qb/macke/mdeistler57/tsnpe_collection/benchmark/benchmark/../results/2022_04_17/20_44_00_m/.submitit/1353307_7/1353307_7_submitted.pkl
+[2022-04-17 20:44:57,171][__main__][INFO] - algorithm:
+  name: tsnpe
+  params:
+    num_rounds: 10
+    neural_net: nsf
+    hidden_features: 50
+    simulation_batch_size: 1000
+    training_batch_size: 10000
+    z_score_x: independent
+    z_score_theta: independent
+    num_samples_to_estimate_support: 1000000
+    allowed_false_negatives: 1.0e-05
+    use_constrained_prior: false
+    constrained_prior_quanitle: 0.0
+    max_num_epochs: 100000
+task:
+  name: gaussian_linear
+  num_simulations: 10000
+  num_observation: 3
+compute_metrics: true
+seed: null
+
+[2022-04-17 20:44:57,173][__main__][INFO] - sbibm version: 1.0.7
+[2022-04-17 20:44:57,173][__main__][INFO] - Seed not specified, generating random seed for replicability
+[2022-04-17 20:44:57,174][__main__][INFO] - Random seed: 3475512688
+[2022-04-17 20:44:57,328][__main__][INFO] - Start run
+[2022-04-17 20:44:57,400][benchmark.run_tsnpe][INFO] - Running SNPE
+[2022-04-17 20:44:57,401][benchmark.run_tsnpe][WARNING] - Reduced training_batch_size to num_simulation_per_round
+ Training neural network. Epochs trained: 1 Training neural network. Epochs trained: 2 Training neural network. Epochs trained: 3 Training neural network. Epochs trained: 4 Training neural network. Epochs trained: 5 Training neural network. Epochs trained: 6 Training neural network. Epochs trained: 7 Training neural network. Epochs trained: 8 Training neural network. Epochs trained: 9 Training neural network. Epochs trained: 10 Training neural network. Epochs trained: 11 Training neural network. Epochs trained: 12 Training neural network. Epochs trained: 13 Training neural network. Epochs trained: 14 Training neural network. Epochs trained: 15 Training neural network. Epochs trained: 16 Training neural network. Epochs trained: 17 Training neural network. Epochs trained: 18 Training neural network. Epochs trained: 19 Training neural network. Epochs trained: 20 Training neural network. Epochs trained: 21 Training neural network. Epochs trained: 22 Training neural network. Epochs trained: 23 Training neural network. Epochs trained: 24 Training neural network. Epochs trained: 25 Training neural network. Epochs trained: 26 Training neural network. Epochs trained: 27 Training neural network. Epochs trained: 28 Training neural network. Epochs trained: 29 Training neural network. Epochs trained: 30 Training neural network. Epochs trained: 31 Training neural network. Epochs trained: 32 Training neural network. Epochs trained: 33 Training neural network. Epochs trained: 34 Training neural network. Epochs trained: 35 Training neural network. Epochs trained: 36 Training neural network. Epochs trained: 37 Training neural network. Epochs trained: 38 Training neural network. Epochs trained: 39 Training neural network. Epochs trained: 40 Training neural network. Epochs trained: 41 Training neural network. Epochs trained: 42 Training neural network. Epochs trained: 43 Training neural network. Epochs trained: 44 Training neural network. Epochs trained: 45 Training neural network. Epochs trained: 46 Training neural network. Epochs trained: 47 Training neural network. Epochs trained: 48 Training neural network. Epochs trained: 49 Training neural network. Epochs trained: 50 Training neural network. Epochs trained: 51 Training neural network. Epochs trained: 52 Training neural network. Epochs trained: 53 Training neural network. Epochs trained: 54 Training neural network. Epochs trained: 55 Training neural network. Epochs trained: 56 Training neural network. Epochs trained: 57 Training neural network. Epochs trained: 58 Training neural network. Epochs trained: 59 Training neural network. Epochs trained: 60 Training neural network. Epochs trained: 61 Training neural network. Epochs trained: 62 Training neural network. Epochs trained: 63 Training neural network. Epochs trained: 64 Training neural network. Epochs trained: 65 Training neural network. Epochs trained: 66 Training neural network. Epochs trained: 67 Training neural network. Epochs trained: 68 Training neural network. Epochs trained: 69 Training neural network. Epochs trained: 70 Training neural network. Epochs trained: 71 Training neural network. Epochs trained: 72 Training neural network. Epochs trained: 73 Training neural network. Epochs trained: 74 Training neural network. Epochs trained: 75 Training neural network. Epochs trained: 76 Training neural network. Epochs trained: 77 Training neural network. Epochs trained: 78 Training neural network. Epochs trained: 79 Training neural network. Epochs trained: 80 Training neural network. Epochs trained: 81 Training neural network. Epochs trained: 82 Training neural network. Epochs trained: 83 Training neural network. Epochs trained: 84 Training neural network. Epochs trained: 85 Training neural network. Epochs trained: 86 Training neural network. Epochs trained: 87 Training neural network. Epochs trained: 88 Training neural network. Epochs trained: 89 Training neural network. Epochs trained: 90 Training neural network. Epochs trained: 91 Training neural network. Epochs trained: 92 Training neural network. Epochs trained: 93 Training neural network. Epochs trained: 94 Training neural network. Epochs trained: 95 Training neural network. Epochs trained: 96 Training neural network. Epochs trained: 97 Training neural network. Epochs trained: 98 Training neural network. Epochs trained: 99 Training neural network. Epochs trained: 100 Training neural network. Epochs trained: 101 Training neural network. Epochs trained: 102 Training neural network. Epochs trained: 103 Training neural network. Epochs trained: 104 Training neural network. Epochs trained: 105 Training neural network. Epochs trained: 106 Training neural network. Epochs trained: 107 Training neural network. Epochs trained: 108 Training neural network. Epochs trained: 109 Training neural network. Epochs trained: 110 Training neural network. Epochs trained: 111 Training neural network. Epochs trained: 112 Training neural network. Epochs trained: 113 Training neural network. Epochs trained: 114 Training neural network. Epochs trained: 115 Training neural network. Epochs trained: 116 Training neural network. Epochs trained: 117 Training neural network. Epochs trained: 118 Training neural network. Epochs trained: 119 Training neural network. Epochs trained: 120 Training neural network. Epochs trained: 121 Training neural network. Epochs trained: 122 Training neural network. Epochs trained: 123 Training neural network. Epochs trained: 124 Training neural network. Epochs trained: 125 Neural network successfully converged after 125 epochs.
+        -------------------------
+        ||||| ROUND 1 STATS |||||:
+        -------------------------
+        Epochs trained: 125
+        Best validation performance: -0.4546
+        -------------------------
+        
+lps tensor([-5.4207,  2.8726,  1.5005,  ...,  1.9196, -1.6939,  0.8025])
+self.thr tensor(-17.0533)
+Remaining: -8938The classifier rejected 0.6200% of all samples. You will get a speed-up of 0.6%.
+Remaining: 48Remaining: -9902The classifier rejected 0.4900% of all samples. You will get a speed-up of 0.5%.
+ Training neural network. Epochs trained: 1 Training neural network. Epochs trained: 2 Training neural network. Epochs trained: 3 Training neural network. Epochs trained: 4 Training neural network. Epochs trained: 5 Training neural network. Epochs trained: 6 Training neural network. Epochs trained: 7 Training neural network. Epochs trained: 8 Training neural network. Epochs trained: 9 Training neural network. Epochs trained: 10 Training neural network. Epochs trained: 11 Training neural network. Epochs trained: 12 Training neural network. Epochs trained: 13 Training neural network. Epochs trained: 14 Training neural network. Epochs trained: 15 Training neural network. Epochs trained: 16 Training neural network. Epochs trained: 17 Training neural network. Epochs trained: 18 Training neural network. Epochs trained: 19 Training neural network. Epochs trained: 20 Training neural network. Epochs trained: 21 Neural network successfully converged after 21 epochs.
+        -------------------------
+        ||||| ROUND 1 STATS |||||:
+        -------------------------
+        Epochs trained: 21
+        Best validation performance: 0.3988
+        -------------------------
+        
+lps tensor([3.7060, 1.4672, 3.1488,  ..., 0.2796, 1.7283, 3.1093])
+self.thr tensor(-16.9294)
+Remaining: -8930The classifier rejected 0.7000% of all samples. You will get a speed-up of 0.7%.
+Remaining: 57Remaining: -9906The classifier rejected 0.4700% of all samples. You will get a speed-up of 0.5%.
+ Training neural network. Epochs trained: 1 Training neural network. Epochs trained: 2 Training neural network. Epochs trained: 3 Training neural network. Epochs trained: 4 Training neural network. Epochs trained: 5 Training neural network. Epochs trained: 6 Training neural network. Epochs trained: 7 Training neural network. Epochs trained: 8 Training neural network. Epochs trained: 9 Training neural network. Epochs trained: 10 Training neural network. Epochs trained: 11 Training neural network. Epochs trained: 12 Training neural network. Epochs trained: 13 Training neural network. Epochs trained: 14 Training neural network. Epochs trained: 15 Training neural network. Epochs trained: 16 Training neural network. Epochs trained: 17 Training neural network. Epochs trained: 18 Training neural network. Epochs trained: 19 Training neural network. Epochs trained: 20 Training neural network. Epochs trained: 21 Training neural network. Epochs trained: 22 Training neural network. Epochs trained: 23 Training neural network. Epochs trained: 24 Training neural network. Epochs trained: 25 Training neural network. Epochs trained: 26 Training neural network. Epochs trained: 27 Training neural network. Epochs trained: 28 Training neural network. Epochs trained: 29 Training neural network. Epochs trained: 30 Training neural network. Epochs trained: 31 Training neural network. Epochs trained: 32 Training neural network. Epochs trained: 33 Training neural network. Epochs trained: 34 Training neural network. Epochs trained: 35 Training neural network. Epochs trained: 36 Training neural network. Epochs trained: 37 Training neural network. Epochs trained: 38 Training neural network. Epochs trained: 39 Training neural network. Epochs trained: 40 Training neural network. Epochs trained: 41 Training neural network. Epochs trained: 42 Training neural network. Epochs trained: 43 Training neural network. Epochs trained: 44 Training neural network. Epochs trained: 45 Training neural network. Epochs trained: 46 Training neural network. Epochs trained: 47 Training neural network. Epochs trained: 48 Training neural network. Epochs trained: 49 Training neural network. Epochs trained: 50 Neural network successfully converged after 50 epochs.
+        -------------------------
+        ||||| ROUND 1 STATS |||||:
+        -------------------------
+        Epochs trained: 50
+        Best validation performance: 0.3690
+        -------------------------
+        
+lps tensor([ 2.8862,  0.2198,  1.4363,  ..., -2.1702, -1.0731,  0.3396])
+self.thr tensor(-17.0007)
+Remaining: -8882The classifier rejected 1.1800% of all samples. You will get a speed-up of 1.2%.
+Remaining: 113Remaining: -9755The classifier rejected 1.2250% of all samples. You will get a speed-up of 1.2%.
+ Training neural network. Epochs trained: 1 Training neural network. Epochs trained: 2 Training neural network. Epochs trained: 3 Training neural network. Epochs trained: 4 Training neural network. Epochs trained: 5 Training neural network. Epochs trained: 6 Training neural network. Epochs trained: 7 Training neural network. Epochs trained: 8 Training neural network. Epochs trained: 9 Training neural network. Epochs trained: 10 Training neural network. Epochs trained: 11 Training neural network. Epochs trained: 12 Training neural network. Epochs trained: 13 Training neural network. Epochs trained: 14 Training neural network. Epochs trained: 15 Training neural network. Epochs trained: 16 Training neural network. Epochs trained: 17 Training neural network. Epochs trained: 18 Training neural network. Epochs trained: 19 Training neural network. Epochs trained: 20 Training neural network. Epochs trained: 21 Neural network successfully converged after 21 epochs.
+        -------------------------
+        ||||| ROUND 1 STATS |||||:
+        -------------------------
+        Epochs trained: 21
+        Best validation performance: 0.3709
+        -------------------------
+        
+lps tensor([-0.3975,  1.1243,  3.3146,  ...,  1.2998, -2.6408,  1.9447])
+self.thr tensor(-15.6740)
+Remaining: -8780The classifier rejected 2.2000% of all samples. You will get a speed-up of 2.2%.
+Remaining: 234Remaining: -9549The classifier rejected 2.2550% of all samples. You will get a speed-up of 2.3%.
+ Training neural network. Epochs trained: 1 Training neural network. Epochs trained: 2 Training neural network. Epochs trained: 3 Training neural network. Epochs trained: 4 Training neural network. Epochs trained: 5 Training neural network. Epochs trained: 6 Training neural network. Epochs trained: 7 Training neural network. Epochs trained: 8 Training neural network. Epochs trained: 9 Training neural network. Epochs trained: 10 Training neural network. Epochs trained: 11 Training neural network. Epochs trained: 12 Training neural network. Epochs trained: 13 Training neural network. Epochs trained: 14 Training neural network. Epochs trained: 15 Training neural network. Epochs trained: 16 Training neural network. Epochs trained: 17 Training neural network. Epochs trained: 18 Training neural network. Epochs trained: 19 Training neural network. Epochs trained: 20 Training neural network. Epochs trained: 21 Training neural network. Epochs trained: 22 Neural network successfully converged after 22 epochs.
+        -------------------------
+        ||||| ROUND 1 STATS |||||:
+        -------------------------
+        Epochs trained: 22
+        Best validation performance: 0.4948
+        -------------------------
+        
+lps tensor([-0.0155,  2.5746,  2.1345,  ..., -0.7012,  2.3349, -2.0012])
+self.thr tensor(-16.4849)
+Remaining: -8844The classifier rejected 1.5600% of all samples. You will get a speed-up of 1.6%.
+Remaining: 160Remaining: -9671The classifier rejected 1.6450% of all samples. You will get a speed-up of 1.7%.
+ Training neural network. Epochs trained: 1 Training neural network. Epochs trained: 2 Training neural network. Epochs trained: 3 Training neural network. Epochs trained: 4 Training neural network. Epochs trained: 5 Training neural network. Epochs trained: 6 Training neural network. Epochs trained: 7 Training neural network. Epochs trained: 8 Training neural network. Epochs trained: 9 Training neural network. Epochs trained: 10 Training neural network. Epochs trained: 11 Training neural network. Epochs trained: 12 Training neural network. Epochs trained: 13 Training neural network. Epochs trained: 14 Training neural network. Epochs trained: 15 Training neural network. Epochs trained: 16 Training neural network. Epochs trained: 17 Training neural network. Epochs trained: 18 Training neural network. Epochs trained: 19 Training neural network. Epochs trained: 20 Training neural network. Epochs trained: 21 Neural network successfully converged after 21 epochs.
+        -------------------------
+        ||||| ROUND 1 STATS |||||:
+        -------------------------
+        Epochs trained: 21
+        Best validation performance: 0.5089
+        -------------------------
+        
+lps tensor([ 4.7494, -0.7682,  0.6017,  ..., -1.9381,  4.4926,  1.3907])
+self.thr tensor(-16.2566)
+Remaining: -8810The classifier rejected 1.9000% of all samples. You will get a speed-up of 1.9%.
+Remaining: 206Remaining: -9609The classifier rejected 1.9550% of all samples. You will get a speed-up of 2.0%.
+ Training neural network. Epochs trained: 1 Training neural network. Epochs trained: 2 Training neural network. Epochs trained: 3 Training neural network. Epochs trained: 4 Training neural network. Epochs trained: 5 Training neural network. Epochs trained: 6 Training neural network. Epochs trained: 7 Training neural network. Epochs trained: 8 Training neural network. Epochs trained: 9 Training neural network. Epochs trained: 10 Training neural network. Epochs trained: 11 Training neural network. Epochs trained: 12 Training neural network. Epochs trained: 13 Training neural network. Epochs trained: 14 Training neural network. Epochs trained: 15 Training neural network. Epochs trained: 16 Training neural network. Epochs trained: 17 Training neural network. Epochs trained: 18 Training neural network. Epochs trained: 19 Training neural network. Epochs trained: 20 Training neural network. Epochs trained: 21 Training neural network. Epochs trained: 22 Training neural network. Epochs trained: 23 Training neural network. Epochs trained: 24 Training neural network. Epochs trained: 25 Neural network successfully converged after 25 epochs.
+        -------------------------
+        ||||| ROUND 1 STATS |||||:
+        -------------------------
+        Epochs trained: 25
+        Best validation performance: 0.5389
+        -------------------------
+        
+lps tensor([ 3.1311,  1.1438, -1.2752,  ..., -2.6542,  1.2406, -0.3986])
+self.thr tensor(-16.9722)
+Remaining: -8817The classifier rejected 1.8300% of all samples. You will get a speed-up of 1.9%.
+Remaining: 154Remaining: -9672The classifier rejected 1.6400% of all samples. You will get a speed-up of 1.7%.
+ Training neural network. Epochs trained: 1 Training neural network. Epochs trained: 2 Training neural network. Epochs trained: 3 Training neural network. Epochs trained: 4 Training neural network. Epochs trained: 5 Training neural network. Epochs trained: 6 Training neural network. Epochs trained: 7 Training neural network. Epochs trained: 8 Training neural network. Epochs trained: 9 Training neural network. Epochs trained: 10 Training neural network. Epochs trained: 11 Training neural network. Epochs trained: 12 Training neural network. Epochs trained: 13 Training neural network. Epochs trained: 14 Training neural network. Epochs trained: 15 Training neural network. Epochs trained: 16 Training neural network. Epochs trained: 17 Training neural network. Epochs trained: 18 Training neural network. Epochs trained: 19 Training neural network. Epochs trained: 20 Training neural network. Epochs trained: 21 Training neural network. Epochs trained: 22 Training neural network. Epochs trained: 23 Training neural network. Epochs trained: 24 Neural network successfully converged after 24 epochs.
+        -------------------------
+        ||||| ROUND 1 STATS |||||:
+        -------------------------
+        Epochs trained: 24
+        Best validation performance: 0.4198
+        -------------------------
+        
+lps tensor([ 3.0904, -1.3101,  1.8700,  ..., -1.1449, -0.4585,  3.6911])
+self.thr tensor(-16.3332)
+Remaining: -8730The classifier rejected 2.7000% of all samples. You will get a speed-up of 2.8%.
+Remaining: 321Remaining: -9415The classifier rejected 2.9250% of all samples. You will get a speed-up of 3.0%.
+ Training neural network. Epochs trained: 1 Training neural network. Epochs trained: 2 Training neural network. Epochs trained: 3 Training neural network. Epochs trained: 4 Training neural network. Epochs trained: 5 Training neural network. Epochs trained: 6 Training neural network. Epochs trained: 7 Training neural network. Epochs trained: 8 Training neural network. Epochs trained: 9 Training neural network. Epochs trained: 10 Training neural network. Epochs trained: 11 Training neural network. Epochs trained: 12 Training neural network. Epochs trained: 13 Training neural network. Epochs trained: 14 Training neural network. Epochs trained: 15 Training neural network. Epochs trained: 16 Training neural network. Epochs trained: 17 Training neural network. Epochs trained: 18 Training neural network. Epochs trained: 19 Training neural network. Epochs trained: 20 Training neural network. Epochs trained: 21 Neural network successfully converged after 21 epochs.
+        -------------------------
+        ||||| ROUND 1 STATS |||||:
+        -------------------------
+        Epochs trained: 21
+        Best validation performance: 0.4947
+        -------------------------
+        
+lps tensor([ 1.7653, -2.7596, -0.6107,  ...,  1.1073,  1.9176, -0.1794])
+self.thr tensor(-16.2423)
+Remaining: -8720The classifier rejected 2.8000% of all samples. You will get a speed-up of 2.9%.
+Remaining: 300Remaining: -9415The classifier rejected 2.9250% of all samples. You will get a speed-up of 3.0%.
+ Training neural network. Epochs trained: 1 Training neural network. Epochs trained: 2 Training neural network. Epochs trained: 3 Training neural network. Epochs trained: 4 Training neural network. Epochs trained: 5 Training neural network. Epochs trained: 6 Training neural network. Epochs trained: 7 Training neural network. Epochs trained: 8 Training neural network. Epochs trained: 9 Training neural network. Epochs trained: 10 Training neural network. Epochs trained: 11 Training neural network. Epochs trained: 12 Training neural network. Epochs trained: 13 Training neural network. Epochs trained: 14 Training neural network. Epochs trained: 15 Training neural network. Epochs trained: 16 Training neural network. Epochs trained: 17 Training neural network. Epochs trained: 18 Training neural network. Epochs trained: 19 Training neural network. Epochs trained: 20 Training neural network. Epochs trained: 21 Neural network successfully converged after 21 epochs.
+        -------------------------
+        ||||| ROUND 1 STATS |||||:
+        -------------------------
+        Epochs trained: 21
+        Best validation performance: 0.4509
+        -------------------------
+        
+lps tensor([ 4.0945, -5.5918,  2.2848,  ..., -1.8748, -1.7596,  3.1367])
+self.thr tensor(-16.6675)
+[2022-04-17 20:49:59,689][__main__][INFO] - Finished run
+[2022-04-17 20:50:00,264][__main__][INFO] - Draw posterior predictive samples
+[2022-04-17 20:50:00,508][__main__][INFO] - Compute all metrics
+[2022-04-17 20:50:00,672][__main__][INFO] - Loaded 10000 samples from reference and algorithm
+[2022-04-17 20:50:01,081][__main__][INFO] - Computing C2ST
+[2022-04-17 20:56:12,338][__main__][INFO] - C2ST: [0.5701]
+[2022-04-17 20:56:12,341][__main__][INFO] - Computing MMD
+[2022-04-17 20:56:14,560][__main__][INFO] - MMD: 0.005476832389831543
+[2022-04-17 20:56:14,560][__main__][INFO] - Computing KSD_GAUSS
+[2022-04-17 20:57:53,605][__main__][INFO] - KSD_GAUSS: 20172.78125
+[2022-04-17 20:57:53,608][__main__][INFO] - Computing MEDDIST
+[2022-04-17 20:57:53,611][__main__][INFO] - MEDDIST: [1.4607003]
+[2022-04-17 20:57:53,611][__main__][INFO] - Computing NLTP
+[2022-04-17 20:57:53,611][__main__][INFO] - NLTP: 4.189375877380371
+[2022-04-17 20:57:53,612][__main__][INFO] - Computing RT
+[2022-04-17 20:57:53,612][__main__][INFO] - RT: 302.36065673828125
+metrics_dict {'acceptance rate': [[1.0, -0.0021332905162125826, -0.002045998116955161, -0.005352964159101248, -0.009905469603836536, -0.007203578017652035, -0.008574560284614563, -0.007181497290730476, -0.012892612256109715, -0.012892612256109715]], 'gt in support': [[1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]], 'C2ST': array([0.5701], dtype=float32), 'MMD': array(0.00547683, dtype=float32), 'KSD_GAUSS': array(20172.781, dtype=float32), 'MEDDIST': array([1.4607003], dtype=float32), 'NLTP': array(4.189376, dtype=float32), 'RT': array(302.36066, dtype=float32)}
+[2022-04-17 20:57:53,711][__main__][INFO] - Metrics:
+acceptance rate  [1.0, -0.0021332905162125826, -0.002045998116955161, -0.005352964159101248, -0.009905469603836536, -0.007203578017652035, -0.008574560284614563, -0.007181497290730476, -0.012892612256109715, -0.012892612256109715]
+gt in support                                                                                                                                                                       [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+C2ST                                                                                                                                                                                                                            0.5701
+MMD                                                                                                                                                                                                                           0.005477
+KSD_GAUSS                                                                                                                                                                                                                  20172.78125
+MEDDIST                                                                                                                                                                                                                         1.4607
+NLTP                                                                                                                                                                                                                          4.189376
+RT                                                                                                                                                                                                                          302.360657
+submitit INFO (2022-04-17 20:57:53,776) - Job completed successfully
+[2022-04-17 20:57:53,776][submitit][INFO] - Job completed successfully

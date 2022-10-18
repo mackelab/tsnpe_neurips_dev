@@ -1,0 +1,2 @@
+submitit INFO (2022-08-01 22:47:11,235) - Starting with JobEnvironment(job_id=1669420_9, hostname=slurm-cpu-hm-4.novalocal, local_rank=0(1), node=0(1), global_rank=0(1))
+submitit INFO (2022-08-01 22:47:11,236) - Loading pickle: /mnt/qb/macke/mdeistler57/tsnpe_collection/benchmark/benchmark/../results/2022_08_01/18_48_30_m/.submitit/1669420_9/1669420_9_submitted.pkl

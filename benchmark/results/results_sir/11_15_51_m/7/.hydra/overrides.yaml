@@ -1,0 +1,5 @@
+- task=gaussian_linear
+- task.num_observation=3
+- task.num_simulations=10000
+- algorithm.params.proposal_sampling=sir
+- algorithm.params.sir_oversample=1024
